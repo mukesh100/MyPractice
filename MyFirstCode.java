@@ -17,8 +17,17 @@ class GFG {
             
         }
     }
+    public static void sample(int x)
+    {
+        if(x>0)
+        System.out.println("Valid");
+        else
+        System.out.println("Invalid");
+    }
 	public static void main (String[] args) {
 	    int a[]={7,9,8,2,5,3};
 	    fun(a,0,6);
+        sample(4);
+        sample(-1);
 	}
 }
